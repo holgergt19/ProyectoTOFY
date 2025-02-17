@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout">
+
+    <!-- Contenido principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Código de la sala -->
+        <TextView
+            android:id="@+id/codeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Código de la sala"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Mostrar la lista de usuarios en la sala -->
+        <TextView
+            android:id="@+id/usersTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuarios en la sala:"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"/>
+
+        <!-- Botón para regresar -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Regresar" />
+        <TextView
+            android:id="@+id/totalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total de ganancias: $800.00"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Botón para agregar gastos -->
+        <Button
+            android:id="@+id/addExpenseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Agregar Gasto" />
+
+        <!-- Sección de calendario -->
+        <FrameLayout
+            android:id="@+id/calendarSection"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

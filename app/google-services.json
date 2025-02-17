@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "212482653743",
+    "project_id": "tofy-4f077",
+    "storage_bucket": "tofy-4f077.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212482653743:android:31f28da45af67f8d93d0da",
+        "android_client_info": {
+          "package_name": "com.example.mac1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7yetK5oTMgeva0QqUedVwLVDoCpcWq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
